@@ -3083,3 +3083,63 @@ a.list-group-item-action:hover {
     font-size: medium;
     color: #000000;
 }
+
+.footer-links {
+    list-style-type: none;
+}
+
+.link-item a {
+    color: white;
+    font-size: medium;
+    padding: 10px;
+}
+.link-item a:hover {
+    color: #b9b9b9;
+    text-decoration: underline;
+}
+
+.footer-logo {
+    width: 15vw;
+    height: auto;
+}
+
+.footer-social {
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer-social li {
+    float: left;
+    padding: 10px;
+}
+
+.social-item a {
+    font-size: 3vw;
+    color: white;
+}
+
+#facebook a:hover {
+    color: #3b5998;
+}
+#twitter a:hover {
+    color: #00acee;
+}
+#instagram a:hover {
+    color: #fb3958;
+}
+#linkedin a:hover{
+    color: #0077B5;
+}
+#youtube a:hover {
+    color: #cd201f;
+}
+#slack a:hover {
+    color: #3aaf85;
+}
+#telegram a:hover {
+    color: #0088CC;
+}
+
+
