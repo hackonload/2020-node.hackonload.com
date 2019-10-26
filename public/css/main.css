@@ -3142,4 +3142,6 @@ a.list-group-item-action:hover {
     color: #0088CC;
 }
 
-
+.schedule-item {
+    margin: 10px;
+}

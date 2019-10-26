@@ -361,24 +361,21 @@
         </div>
         <div class="row">
             <div class="col-sm-12 col-md-3 list-group" id="schedule-tabs" role="tablist">
-                <div class="btn-wrapper">
-                    <a class="list-group-item list-group-item-action active" data-toggle="list" href="#day-1">28th Feb,
+
+                    <a class="schedule-item list-group-item list-group-item-action active" data-toggle="list" role="tab" id="day-1-tab" href="#schedule-day-1">28th Feb,
                         2020</a>
-                </div>
-                <div class="btn-wrapper">
-                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#day-2">29th Feb,
+
+                    <a class="schedule-item list-group-item list-group-item-action" data-toggle="list" role="tab" id="day-2-tab" href="#schedule-day-2">29th Feb,
                         2020</a>
-                </div>
-                <div class="btn-wrapper">
-                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#day-3">01st Mar,
+
+                    <a class="schedule-item list-group-item list-group-item-action" data-toggle="list" role="tab" id="day-3-tab" href="#schedule-day-3">01st Mar,
                         2020</a>
-                </div>
             </div>
             <div class="col-sm-12 col-md-9">
                 <div class="tab-content p20">
 
-                    <div class="tab-pane active" id="day-1" role="tabpanel">
-                        <ul class="list-group list-group-flush">
+                    <div class="tab-pane fade show active" id="schedule-day-1" role="tabpanel" aria-labelledby="day-1-tab">
+                        <ul class="list-group list-group-flush" id="day-1-details">
                             <li class="list-group-item">Aaaaaaaa</li>
                             <li class="list-group-item">Bbbbbbbbbbbb</li>
                             <li class="list-group-item">Cccccc</li>
@@ -387,8 +384,8 @@
                         </ul>
                     </div>
 
-                    <div class="tab-pane" id="day-2" role="tabpanel">
-                        <ul class="list-group list-group-flush">
+                    <div class="tab-pane fade" id="schedule-day-2" role="tabpanel" aria-labelledby="day-2-tab">
+                        <ul class="list-group list-group-flush" id="day-2-details">
                             <li class="list-group-item">111</li>
                             <li class="list-group-item">222</li>
                             <li class="list-group-item">333</li>
@@ -397,8 +394,8 @@
                         </ul>
                     </div>
 
-                    <div class="tab-pane" id="day-3" role="tabpanel">
-                        <ul class="list-group list-group-flush">
+                    <div class="tab-pane fade" id="schedule-day-3" role="tabpanel" aria-labelledby="day-3-tab">
+                        <ul class="list-group list-group-flush" id="day-3-details">
                             <li class="list-group-item">qqqq</li>
                             <li class="list-group-item">wwww</li>
                             <li class="list-group-item">eee</li>
