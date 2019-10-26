@@ -10,6 +10,9 @@
     --font-heading: "Crossten ExtraBold";
     --font-content: "Cabin";
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-size: 14px;
