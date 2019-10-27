@@ -3080,6 +3080,7 @@ textarea.form-control {
 
 a.list-group-item-action:hover {
     background-color: var(--theme-color-dark);
+    color: white;
 }
 
 .faq-answer p {

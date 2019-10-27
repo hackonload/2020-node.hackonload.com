@@ -10,14 +10,14 @@ $(document).ready(function() {
     /* ==============================================
      /*   wow
       =============================================== */
-    const wow = new WOW(
+/*    const wow = new WOW(
         {
             animateClass: 'animated',
             offset: 10,
             mobile: true
         }
     );
-    wow.init();
+    wow.init();*/
     /* ==============================================
         STICKY HEADER
         =============================================== */
