@@ -2272,6 +2272,12 @@ h2.cover-title {
     font-size: large;
 }
 
+.why-img-illus {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
 .map-marker {
     font-size: 100px;
     color: var(--theme-color);
