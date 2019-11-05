@@ -1,3 +1,4 @@
+/*noinspection CssUnknownTarget*/
 @font-face {
     font-family: 'Crossten ExtraBold';
     src: url('/assets/fonts/crossten_extrabold-webfont.woff2') format('woff2'),
@@ -1779,6 +1780,7 @@ footer {
 /*  ----------------------------------------------------
 Cover
 -------------------------------------------------------- */
+/*noinspection CssUnknownTarget*/
 .home-cover {
     position: relative;
     background-size: contain;
