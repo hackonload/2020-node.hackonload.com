@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+const FAQs = require("./../data/faqs");
 
 /* GET home page. */
 router.get('/', (req, res, next) => {
@@ -7,7 +8,8 @@ router.get('/', (req, res, next) => {
 	const data = {
 		title: 'OnLoad 2.0 | 28th Feb - 1st March',
 		meta_description: 'A 30hrs intense, fun-filled, rewarding convergence of programmers, designers and developers to build something amazing.',
-		page_url: url
+		page_url: url,
+		FAQs: FAQs
 	};
 	res.render('index', data);
 });
