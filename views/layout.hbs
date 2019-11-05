@@ -4,24 +4,51 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-    <title>{{{ title }}}</title>
+    <title>{{title}}</title>
+    <!--Google Font-->
     <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--Font Awesome-->
     <link href="/font-awesome/css/fontawesome.min.css" rel="stylesheet">
     <link href="/font-awesome/css/brands.min.css" rel="stylesheet">
     <link href="font-awesome/css/solid.min.css" rel="stylesheet">
 
+    <!--Page Stylesheet-->
     <link href="/css/main.css" rel="stylesheet"/>
 
+    <!--Favicons-->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <meta name="msapplication-TileColor" content="#4b2662">
     <meta name="theme-color" content="#4b2662">
+
+    <!-- COMMON TAGS -->
+    <!-- Search Engine -->
+    <meta name="description" content="{{meta_description}}">
+    <meta name="image" content="https://hackonload.com/onload-cover.jpg">
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="{{title}}">
+    <meta itemprop="description" content="{{meta_description}}">
+    <meta itemprop="image" content="https://hackonload.com/onload-cover.jpg">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{title}}">
+    <meta name="twitter:description" content="{{meta_description}}">
+    <meta name="twitter:site" content="@hackOnLoad">
+    <meta name="twitter:creator" content="@hackOnLoad">
+    <meta name="twitter:image:src" content="https://hackonload.com/onload-cover.jpg">
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="{{title}}">
+    <meta name="og:description" content="{{meta_description}}">
+    <meta name="og:image" content="https://hackonload.com/onload-cover.jpg">
+    <meta name="og:url" content="https://hackonload.com/">
+    <meta name="og:site_name" content="{{title}}">
+    <meta name="og:type" content="website">
 
 </head>
 <body>
