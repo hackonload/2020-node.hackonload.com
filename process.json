@@ -1,0 +1,10 @@
+{
+  "script": "./bin/www",
+  "name": "hackonload.com",
+  "watch": true,
+  "ignore_watch": [
+    "node_modules"
+  ],
+  "instances": "max",
+  "exec_mode": "cluster"
+}
