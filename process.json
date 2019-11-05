@@ -3,7 +3,8 @@
   "name": "hackonload.com",
   "watch": true,
   "ignore_watch": [
-    "node_modules"
+    "node_modules",
+    ".git"
   ],
   "instances": "max",
   "exec_mode": "cluster"
