@@ -5,7 +5,7 @@ const router = express.Router();
 router.get('/', (req, res, next) => {
 	const url = req.protocol + "://" + req.headers.host + req.originalUrl;
 	const data = {
-		title: 'OnLoad',
+		title: 'OnLoad 2.0 | 28th Feb - 1st March',
 		meta_description: 'A 30hrs intense, fun-filled, rewarding convergence of programmers, designers and developers to build something amazing.',
 		page_url: url
 	};
