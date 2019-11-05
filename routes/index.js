@@ -3,15 +3,21 @@ const router = express.Router();
 
 /* GET home page. */
 router.get('/', (req, res, next) => {
+	const url = req.protocol + "://" + req.headers.host + req.originalUrl;
 	const data = {
-		title: 'OnLoad'
+		title: 'OnLoad',
+		meta_description: 'A 30hrs intense, fun-filled, rewarding convergence of programmers, designers and developers to build something amazing.',
+		page_url: url
 	};
 	res.render('index', data);
 });
 
 router.get('/team', (req, res) => {
+	const url = req.protocol + "://" + req.headers.host + req.originalUrl;
 	const data = {
-		title: 'OnLoad'
+		title: 'Team behind OnLoad 2.0',
+		meta_description: 'A 30hrs intense, fun-filled, rewarding convergence of programmers, designers and developers to build something amazing.',
+		page_url: url
 	};
 	res.render('team', data);
 });
