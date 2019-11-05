@@ -1777,9 +1777,6 @@ footer {
     transition: all 300ms ease-in-out;
 }
 
-/*  ----------------------------------------------------
-Cover
--------------------------------------------------------- */
 /*noinspection CssUnknownTarget*/
 .home-cover {
     position: relative;
@@ -1891,76 +1888,6 @@ h2.cover-title {
     font-size: 48px;
     font-weight: 500;
 }
-/*
-.breadcrumbs {
-    position: absolute;
-    bottom: -1px;
-    margin: 0;
-}
-
-.breadcrumbs ul {
-    padding: 5px 90px;
-    margin: 0 auto;
-    text-align: center;
-    float: none;
-    bottom: 0;
-    min-height: 50px;
-    position: relative;
-    width: auto;
-    display: inline-block;
-    list-style: none;
-    background-color: #ffffff;
-    color: #18181c;
-    border-top-left-radius: 51px;
-    border-top-right-radius: 51px;
-}
-
-.breadcrumbs ul:before {
-    content: " ";
-    display: block;
-    position: absolute;
-    left: -30px;
-    bottom: 0;
-    top: 21px;
-    border-top-left-radius: 0;
-    width: 0;
-    height: 0;
-    border-bottom: 40px solid #ffffff;
-    border-left: 40px solid transparent;
-}
-
-.breadcrumbs ul:after {
-    display: block;
-    position: absolute;
-    right: -30px;
-    bottom: 0;
-    top: 21px;
-    border-top-left-radius: 0;
-    width: 0;
-    height: 0;
-    border-bottom: 40px solid #ffffff;
-    border-right: 40px solid transparent;
-    content: " ";
-}
-
-.breadcrumbs ul li {
-    display: inline-block;
-}
-
-.breadcrumbs ul li a {
-    padding: 13px;
-    font-size: 12px;
-    font-weight: 600;
-    display: inline-block;
-    color: #18181c;
-}
-
-.breadcrumbs ul li span {
-    padding: 13px;
-    font-size: 12px;
-    font-weight: 600;
-    color: #f50136;
-}*/
 
 .icon_box_one {
     background-color: #f0f2f6;
