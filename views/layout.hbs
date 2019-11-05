@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--suppress HtmlUnknownTarget -->
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
@@ -9,14 +10,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="/font-awesome/css/fontawesome.min.css" rel="stylesheet">
+    <link href="/font-awesome/css/brands.min.css" rel="stylesheet">
+    <link href="font-awesome/css/solid.min.css" rel="stylesheet">
 
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="/css/animate.min.css">
-    <!--<link rel="stylesheet" href="/css/owl.carousel.min.css"/>-->
-    <!-- Custom styles for this template -->
-    <link href="/css/main.css" rel="stylesheet">
-
-    <script src="https://kit.fontawesome.com/0b345f59f6.js" async crossorigin="anonymous"></script>
+    <link href="/css/main.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="loader">
@@ -72,7 +70,8 @@
                         </a>
                     </li>
                     <li class="social-item" id="youtube">
-                        <a href="https://www.youtube.com/channel/UCk_-DEAu3mRfsAHBctDOScg" target="_blank" rel="noopener" title="Youtube">
+                        <a href="https://www.youtube.com/channel/UCk_-DEAu3mRfsAHBctDOScg" target="_blank"
+                           rel="noopener" title="Youtube">
                             <i class="fab fa-youtube"></i>
                         </a>
                     </li>
@@ -96,15 +95,15 @@
         crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous" async></script>
-<script src="https://embed.small.chat/TL0B45NNNGM9LSPW3T.js" async></script>
+        crossorigin="anonymous" async defer></script>
+<script src="https://embed.small.chat/TL0B45NNNGM9LSPW3T.js" async defer></script>
 
 <!--<script src="/js/legacy/jquery.min.js"></script>-->
 <!--<script src="/js/legacy/popper.js"></script>-->
 <!--<script src="/js/legacy/bootstrap.min.js"></script>-->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
-        integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+        integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>-->
 <!--<script src="/js/waypoints.min.js"></script>-->
 <!--slick carousel -->
 <!--<script src="/js/owl.carousel.min.js"></script>-->
@@ -118,6 +117,20 @@
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
         integrity="sha256-z6FznuNG1jo9PP3/jBjL6P3tvLMtSwiVAowZPOgo56U=" crossorigin="anonymous"></script>-->
 <!-- Custom js -->
-<script src="/js/main.js"></script>
+<!--<script src="/js/main.js"></script>-->
+<script>
+    $(window).on('load', () => {
+        $('.loader').delay(500).fadeOut('slow');
+    });
+    $(document).ready(() => {
+        $(window).on('scroll', () => {
+            if ($(window).scrollTop() < 100) {
+                $('.header').removeClass('sticky_header');
+            } else {
+                $('.header').addClass('sticky_header');
+            }
+        });
+    });
+</script>
 </body>
 </html>
