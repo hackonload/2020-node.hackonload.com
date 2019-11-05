@@ -9,4 +9,11 @@ router.get('/', (req, res, next) => {
 	res.render('index', data);
 });
 
+router.get('/team', (req, res) => {
+	const data = {
+		title: 'OnLoad'
+	};
+	res.render('team', data);
+});
+
 module.exports = router;
