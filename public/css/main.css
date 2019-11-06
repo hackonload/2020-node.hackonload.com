@@ -1808,7 +1808,6 @@ footer {
 .cover_slider .cover_item {
     width: 100%;
     position: relative;
-    height: 100vh;
     min-height: 600px;
     padding: 150px 0;
 }
