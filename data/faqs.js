@@ -34,11 +34,11 @@ const FAQs = [
 		question:"I don't want to hack, but i still get involved?",
 		answer:"If you're looking to be a volunteer or mentor (i.e. someone with technical skills who'd be willing to help out participants during the weekend), you should reach out to us at volunteer@hackonload.com. If your company is interested in becoming a sponsor, write to us at sponsor@hackonload.com"
 	},
-	{
-		id:"faq-8",
-		question:"When will application close?",
-		answer:"The application portal will be closed on March 1st at 11:59pm IST. We evaluate applications on a rolling basis and acceptances will be sent every weekend via email. The sooner you apply, the better chances you have of acceptance. Once accepted, you’ll have two days to confirm your attendance"
-	},
+	/*	{
+			id:"faq-8",
+			question:"When will application close?",
+			answer:"The application portal will be closed on March 1st at 11:59pm IST. We evaluate applications on a rolling basis and acceptances will be sent every weekend via email. The sooner you apply, the better chances you have of acceptance. Once accepted, you’ll have two days to confirm your attendance"
+		},*/
 	{
 		id:"faq-9",
 		question:"How much does it cost? ",
