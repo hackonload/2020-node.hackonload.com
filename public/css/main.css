@@ -847,6 +847,10 @@ a.list-group-item-action:hover {
     padding: 20px;
 }
 
+.footer-links {
+    padding: 0;
+}
+
 .footer-social li {
     float: left;
     padding: 10px;
