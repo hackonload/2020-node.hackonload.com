@@ -831,7 +831,7 @@ a.list-group-item-action:hover {
 }
 
 .footer-logo {
-    width: 20vw;
+    width: 20vh;
     height: auto;
 }
 
@@ -840,6 +840,7 @@ a.list-group-item-action:hover {
     display: flex;
     list-style-type: none;
     text-align: center;
+    padding: 20px;
 }
 
 .footer-social li {
@@ -848,9 +849,16 @@ a.list-group-item-action:hover {
 }
 
 .social-item a {
-    font-size: 3vw;
+    font-size: 4vh;
     color: white;
 }
+
+@media (max-width: 767px) {
+    ul.footer-social {
+        margin-bottom: 30px;
+    }
+}
+
 
 #facebook a:hover {
     color: #3b5998;
