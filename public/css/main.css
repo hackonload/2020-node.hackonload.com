@@ -804,6 +804,10 @@ a.list-group-item-action:hover {
     color: white;
 }
 
+.faq-item {
+    padding: 10px;
+}
+
 .faq-answer p {
     font-size: medium;
     color: #000000;

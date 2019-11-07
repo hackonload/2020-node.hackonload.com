@@ -49,11 +49,11 @@ const FAQs = [
 		question:"How big a team can be?",
 		answer:"You can form teams of up to 3 people. Most teams aim to have a mix of people with both design and developer skills."
 	},
-	{
-		id:"faq-11",
-		question:" Once i am accepted, what do i need to bring? ",
-		answer:"A valid government & a college issued photo ID, laptop, phone, chargers, any sleeping equipment you might want (we'll be providing mattresses)"
-	},
+	/*	{
+			id:"faq-11",
+			question:" Once i am accepted, what do i need to bring? ",
+			answer:"A valid government & a college issued photo ID, laptop, phone, chargers, any sleeping equipment you might want (we'll be providing mattresses)"
+		},*/
 	{
 		id:"faq-12",
 		question:"Do you provide travel reimbursement",
