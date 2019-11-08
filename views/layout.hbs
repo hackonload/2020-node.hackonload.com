@@ -71,6 +71,32 @@
     <div class="loader-outter"></div>
     <div class="loader-inner"></div>
 </div>
+
+<header class="header navbar fixed-top navbar-expand-md">
+    <div class="container">
+        <a class="navbar-brand logo" href="/" aria-label="OnLoad">
+            <img src="images/onload.png" alt="OnLoad's logo"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
+            <ul class=" nav navbar-nav menu">
+                {{#each links}}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{href}}" title="{{title}}" {{#if newWindow}}
+                           rel="noopener" target="_blank" {{/if}}>
+                            {{title}} {{#if external}}<i class="fas fa-external-link-square-alt"></i>{{/if}}
+                        </a>
+                    </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</header>
+<!--header end here-->
+
 {{{ body }}}
 <!--footer start -->
 

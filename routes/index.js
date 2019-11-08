@@ -2,6 +2,24 @@ const express = require('express');
 const router = express.Router();
 const FAQs = require("./../data/faqs");
 
+const homePageLinks = [
+	{
+		href: "#about",
+		title: "About"
+	}, {
+		href: "#sponsors",
+		title: "Sponsors"
+	}, {
+		href: "#faqs",
+		title: "FAQs"
+	}, {
+		href: "https://blog.hackonload.com/",
+		title: "Blog",
+		newWindow: true,
+		external: true
+	}
+];
+
 /* GET home page. */
 router.get('/', (req, res, next) => {
 	const url = "https://hackonload.com" + req.originalUrl;
@@ -9,7 +27,8 @@ router.get('/', (req, res, next) => {
 		title: 'OnLoad 2.0 | 28th Feb - 1st March',
 		meta_description: 'A 36hrs intense, fun-filled, rewarding convergence of programmers, designers and developers to build something amazing.',
 		page_url: url,
-		FAQs: FAQs
+		FAQs: FAQs,
+		links: homePageLinks
 	};
 	res.render('index', data);
 });
