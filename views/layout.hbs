@@ -2,6 +2,20 @@
 <!--suppress HtmlUnknownTarget -->
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131919957-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-131919957-1');
+    </script>
+
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>{{title}}</title>
@@ -24,8 +38,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#4b2662">
     <meta name="msapplication-TileColor" content="#4b2662">
-    <meta name="theme-color" content="#4b2662">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- COMMON TAGS -->
     <!-- Search Engine -->
@@ -56,26 +71,57 @@
     <div class="loader-outter"></div>
     <div class="loader-inner"></div>
 </div>
+
+<header class="header navbar fixed-top navbar-expand-md">
+    <div class="container">
+        <a class="navbar-brand logo" href="/" aria-label="OnLoad">
+            <img src="images/onload.png" alt="OnLoad's logo"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
+            <ul class=" nav navbar-nav menu">
+                {{#each links}}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{href}}" title="{{title}}" {{#if newWindow}}
+                           rel="noopener" target="_blank" {{/if}}>
+                            {{title}} {{#if external}}<i class="fas fa-external-link-square-alt"></i>{{/if}}
+                        </a>
+                    </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</header>
+<!--header end here-->
+
 {{{ body }}}
 <!--footer start -->
 
 <footer class="footer">
     <div class="container-fluid">
         <div class="row text-center">
-
             <div class="col-sm-12 col-md-4">
                 <ul class="footer-links">
                     <li class="link-item">
-                        <a href="https://devfolio.co/code-of-conduct" target="_blank" rel="nofollow"
-                           title="Code of Conduct">Code of
-                            Conduct</a>
+                        <a href="https://devfolio.co/code-of-conduct" target="_blank" rel="noopener"
+                           title="Code of Conduct">
+                            Code of Conduct
+                        </a>
                     </li>
                     <li class="link-item">
                         <!--                        <a href="/team" title="Our Team">Our Team</a>-->
                     </li>
+                    <li class="link-item">
+                        <a href="https://www.facebook.com/pg/hackOnLoad/photos/?tab=album&album_id=2061382887293793"
+                           target="_blank" rel="noopener" title="OnLoad 1.0 Gallery">
+                            OnLoad 1.0
+                        </a>
+                    </li>
                 </ul>
             </div>
-
             <div class="col-sm-12 col-md-4">
                 <div class="onload-img">
                     <img src="/images/onload-white.png" class="footer-logo img-fluid" alt="OnLoad's Logo">
@@ -120,8 +166,6 @@
                             <i class="fab fa-telegram-plane"></i>
                         </a>
                     </li>
-
-
                 </ul>
             </div>
         </div>
