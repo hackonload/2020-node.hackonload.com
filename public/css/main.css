@@ -911,3 +911,15 @@ a.list-group-item-action:hover {
 .sponsor-wrapper {
     padding: 20px;
 }
+
+.diamond {
+    width: 55%;
+}
+
+.gold {
+    width: 30%;
+}
+
+.sponsor-row {
+    padding: 20px;
+}
