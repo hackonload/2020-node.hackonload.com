@@ -2,7 +2,7 @@ const FAQs = [
 	{
 		id: "faq-1",
 		question: "Who can participate?",
-		answer: "All the students are welcome to apply, be it school or college. If you are under 18 years of age, we’ll need a parental consent form. If you are not a student you can still be a part asmentor, judge etc. If interested write to us at contact@hackonload.com"
+		answer: "All the students are welcome to apply, be it school or college. If you are under 18 years of age, we’ll need a parental consent form. If you are not a student you can still be a part as mentor, judge etc. If interested write to us at contact@hackonload.com"
 	},
 	{
 		id: "faq-2",
