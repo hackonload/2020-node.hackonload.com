@@ -944,8 +944,8 @@ a.list-group-item-action:hover {
     -ms-flex-align: center;
     -webkit-box-align: center;
     align-items: center;
-    background-color: #3770FF;
-    border-radius: 3px;
+    background-color: var(--theme-color);
+    border-radius: 5px;
     border: none;
     color: #FFFFFF;
     cursor: pointer;
@@ -960,10 +960,15 @@ a.list-group-item-action:hover {
     text-transform: lowercase;
 }
 
+.devfolio-apply-now svg.logo {
+    color: white;
+    fill: white;
+}
+
 .devfolio-apply-now:not([disabled]) {
     cursor: pointer;
 }
 
 .devfolio-apply-now:hover {
-    background-color: #2954BF !important;
+    background-color: var(--theme-color-dark) !important;
 }
