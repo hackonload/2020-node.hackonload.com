@@ -216,5 +216,33 @@
         });
     });
 </script>
+<script>
+    const hackathonDevfolioKey = 'onload2020';
+    document.addEventListener('DOMContentLoaded', function () {
+        let devfolioOptionsTop = {
+            buttonSelector: '#devfolio-apply-now-top',
+            key: hackathonDevfolioKey,
+        };
+        let devfolioOptionsBottom = {
+            buttonSelector: '#devfolio-apply-now-bottom',
+            key: hackathonDevfolioKey,
+        };
+
+        let script = document.createElement('script');
+        script.src = "https://apply.devfolio.co";
+        document.head.append(script);
+
+        script.onload = function () {
+            new Devfolio(devfolioOptionsTop);
+            new Devfolio(devfolioOptionsBottom);
+        };
+
+        script.onerror = function () {
+            document.querySelector(devfolioOptionsTop.buttonSelector).addEventListener('click', function () {
+                window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptionsTop.key;
+            });
+        }
+    });
+</script>
 </body>
 </html>
