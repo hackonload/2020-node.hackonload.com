@@ -692,7 +692,8 @@ h2.cover-title {
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
-.center img{
+
+.center img {
     margin-left: auto;
     margin-right: auto;
 }
@@ -754,6 +755,7 @@ h2.cover-title {
     color: var(--theme-color);
     text-align: center;
 }
+
 .map-marker img {
     width: 200px;
 
@@ -918,6 +920,20 @@ a.list-group-item-action:hover {
 
 .gold {
     width: 30%;
+}
+
+@media (max-width: 767px) {
+    .diamond {
+        width: 100%;
+    }
+
+    .gold {
+        width: 90%;
+    }
+
+    .min-tier {
+        width: 50%;
+    }
 }
 
 .sponsor-row {
