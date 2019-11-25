@@ -918,6 +918,10 @@ a.list-group-item-action:hover {
     width: 55%;
 }
 
+.platinum {
+    width: 40%;
+}
+
 .gold {
     width: 30%;
 }
@@ -927,6 +931,9 @@ a.list-group-item-action:hover {
         width: 100%;
     }
 
+    .platinum {
+        width: 95%;
+    }
     .gold {
         width: 90%;
     }
