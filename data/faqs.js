@@ -55,9 +55,9 @@ const FAQs = [
 			answer:"A valid government & a college issued photo ID, laptop, phone, chargers, any sleeping equipment you might want (we'll be providing mattresses)"
 		},*/
 	{
-		id:"faq-12",
-		question:"Do you provide travel reimbursement",
-		answer:"No, But we don’t want money to keep you from experiencing OnLoad. If you need help making your way to Mysuru contact us and we’ll see what we can do."
+		id: "faq-12",
+		question: "Do you provide travel reimbursement",
+		answer: "No, we won't be able to provide reimbursements."
 	},
 	{
 		id:"faq-13",
@@ -65,9 +65,9 @@ const FAQs = [
 		answer:"Pretty much everything from socializing with fellow hacker community to internship/job offers from the coolest tech companies. And yeah we’ll have prizes for finalist teams, and many other company sponsored prizes. Most of all, you will gain an unparalleled learning experience and memories for a lifetime!"
 	},
 	{
-		id:"faq-14",
-		question:"How does judging work?",
-		answer:"A panel of some of the judges will evaluate hacks based on creativity, technical difficulty, design, and usefulness. The top 3 overall projects and some selected will demo what they have built in front of all of OnLoad during our closing ceremonies."
+		id: "faq-14",
+		question: "How does judging work?",
+		answer: "A panel of some of the judges will evaluate hacks based on creativity, technical difficulty, design, and usefulness. The top 7 overall projects will demo what they have built in front of everyone."
 	},
 	{
 		id:"faq-15",
