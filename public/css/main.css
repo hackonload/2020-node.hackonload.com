@@ -934,6 +934,7 @@ a.list-group-item-action:hover {
     .platinum {
         width: 95%;
     }
+
     .gold {
         width: 90%;
     }
@@ -978,4 +979,39 @@ a.list-group-item-action:hover {
 
 .devfolio-apply-now:hover {
     background-color: var(--theme-color-dark) !important;
+}
+
+.member {
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 600px;
+    width: 18rem;
+    /*background-color: var(--theme-color-dark);*/
+}
+
+.member-wrapper {
+    padding: 15px;
+}
+
+.member .card-body {
+    text-align: center;
+}
+
+.member .card-body p {
+    text-align: left;
+}
+
+.member .card-body p, .member .card-body h5 {
+    color: black;
+}
+
+.ext-btn {
+    font-size: large;
+    width: auto;
+    /*color: white;*/
+    /*border-color: white;*/
+}
+
+@media (max-width: 767px) {
+
 }
