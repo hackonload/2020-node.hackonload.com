@@ -68,4 +68,8 @@ router.get('/team', (req, res) => {
 	res.render('team', data);
 });
 
+router.get('/campus-ambassador', (req, res) => {
+	res.render('campus-ambassador-form', {layout: false});
+});
+
 module.exports = router;
