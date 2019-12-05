@@ -16,7 +16,14 @@ const team = [
 		bio: "Passionate about Developing mobile and web apps. Loves innovating.",
 		link: "https://www.linkedin.com/in/akshay-g-r-92266b16a",
 		image: "gr.jpg"
+	},
+	{
+		name: "Anirudh R",
+		bio: "Enthusiastic.part time actor. Full time developer ",
+		link: "https://www.linkedin.com/in/anirudh-raghavendra-b6a178173",
+		image: "ggg.jpg"
 	}
+	
 ];
 
 module.exports = team;
