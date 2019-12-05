@@ -19,7 +19,7 @@ const team = [
 	},
 	{
 		name: "Anirudh R",
-		bio: "Enthusiastic.part time actor. Full time developer ",
+		bio: "Evolving developer,impersonator.Future entrepreneur",
 		link: "https://www.linkedin.com/in/anirudh-raghavendra-b6a178173",
 		image: "ggg.jpg"
 	}
