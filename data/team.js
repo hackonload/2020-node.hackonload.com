@@ -53,6 +53,12 @@ const team = [
 		link: "https://www.linkedin.com/in/soujanya-satish-vernekar-82702116b",
 		image: "soujanya.jpg"
 	},
+  {
+    name: "Anirudh R",
+		bio: "Evolving developer,impersonator.Future entrepreneur",
+		link: "https://www.linkedin.com/in/anirudh-raghavendra-b6a178173",
+		image: "ggg.jpg"
+  },
 	{
 		name: "Akshay S B",
 		bio: "Another computer science engineer interested in drawing, graphics & animation.",
@@ -83,6 +89,7 @@ const team = [
 		link: "https://www.linkedin.com/in/apoorva-singh-4b6ba715b/",
 		image: "Apoorva.JPG"
 	}
+	
 ];
 
 module.exports = team;
