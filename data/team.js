@@ -76,7 +76,7 @@ const team = [
 		bio: "Highly driven individual looking for opportunities to showcase my skills..... Budding Android Developer.",
 		link: "https://www.linkedin.com/in/uthkarsh-sanjay-ba600216b",
 		image: "uthkarsh.jpeg"
-	}
+	},
 	{
 		name: "Apoorva Singh",
 		bio: "A polymath, Designer, Artist, Toastmaster, as enthusiast who is looking forward to learn different stuffs!",
