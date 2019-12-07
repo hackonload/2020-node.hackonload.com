@@ -54,10 +54,10 @@ const team = [
 		image: "soujanya.jpg"
 	},
   {
-    name: "Anirudh R",
-		bio: "Evolving developer,impersonator.Future entrepreneur",
-		link: "https://www.linkedin.com/in/anirudh-raghavendra-b6a178173",
-		image: "ggg.jpg"
+	  name: "Anirudh R",
+	  bio: "Evolving developer,impersonator.Future entrepreneur",
+	  link: "https://www.linkedin.com/in/anirudh-raghavendra-b6a178173",
+	  image: "anirudh.jpeg"
   },
 	{
 		name: "Akshay S B",
@@ -89,7 +89,7 @@ const team = [
 		link: "https://www.linkedin.com/in/apoorva-singh-4b6ba715b/",
 		image: "Apoorva.JPG"
 	}
-	
+
 ];
 
 module.exports = team;
