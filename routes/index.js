@@ -72,4 +72,8 @@ router.get('/campus-ambassador', (req, res) => {
 	res.render('campus-ambassador-form', {layout: false});
 });
 
+router.get('/cfp', (req, res) => {
+	res.render('cfp-form', {layout: false});
+});
+
 module.exports = router;
