@@ -234,8 +234,12 @@
         document.head.append(script);
 
         script.onload = function () {
-            new Devfolio(devfolioOptionsTop);
-            new Devfolio(devfolioOptionsBottom);
+            if ($(devfolioOptionsTop.buttonSelector).length !== 0) {
+                new Devfolio(devfolioOptionsTop);
+            }
+            if ($(devfolioOptionsBottom.buttonSelector).length !== 0) {
+                new Devfolio(devfolioOptionsBottom);
+            }
         };
 
         script.onerror = function () {
