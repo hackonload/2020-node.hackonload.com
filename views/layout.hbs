@@ -203,10 +203,11 @@
 <!-- Custom js -->
 <!--<script src="/js/main.js"></script>-->
 <script>
-    $(window).on('load', () => {
+    /*$(window).on('load', () => {
         $('.loader').delay(500).fadeOut('slow');
-    });
+    });*/
     $(document).ready(() => {
+        $('.loader').delay(500).fadeOut('slow');
         $(window).on('scroll', () => {
             if ($(window).scrollTop() < 100) {
                 $('.header').removeClass('sticky_header');
