@@ -829,6 +829,13 @@ a.list-group-item-action:hover {
     font-family: var(--font-heading);
 }
 
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 .footer-links {
     list-style-type: none;
 }
