@@ -84,4 +84,15 @@ router.get('/cfp', (req, res) => {
 	res.render('cfp-form', {layout: false});
 });
 
+router.get('/ticket', (req, res) => {
+	const url = "https://hackonload.com" + req.originalUrl;
+	const data = {
+		title: 'OnLoad 2.0 conference tickets',
+		meta_description: 'Book tickets for the talks & Workshops for OnLoad 2.0',
+		page_url: url,
+		links: teamPageLinks,
+	};
+	res.render('ticket', data);
+});
+
 module.exports = router;
