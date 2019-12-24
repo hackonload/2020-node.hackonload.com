@@ -95,4 +95,15 @@ router.get('/ticket', (req, res) => {
 	res.render('ticket', data);
 });
 
+router.get('/ticket/confirm', (req, res) => {
+	const url = "https://hackonload.com" + req.originalUrl;
+	const data = {
+		title: 'OnLoad 2.0 conference tickets',
+		meta_description: 'Book tickets for the talks & Workshops for OnLoad 2.0',
+		page_url: url,
+		links: teamPageLinks,
+	};
+	res.render('ticket-confirm', data);
+});
+
 module.exports = router;
