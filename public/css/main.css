@@ -1035,3 +1035,7 @@ footer {
 @media (max-width: 767px) {
 
 }
+
+.conf-ticket {
+    width: 100%;
+}
