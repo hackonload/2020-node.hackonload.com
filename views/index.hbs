@@ -32,17 +32,6 @@
                                 Apply with Devfolio
                             </button>
                         </div>
-                        <!--<div class="row event-details">
-                            <div class="col-12 col-md-6">
-                                <a href="https://goo.gl/maps/M2och8ac3qT2" rel=noopener target=_blank title="See on Map"
-                                   aria-label="Event Location">
-                                    <i class="fas fa-map-marker-alt"></i> VVCE, Mysuru
-                                </a>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <p><i class="fas fa-calendar-day"></i> 28th Feb - 1st March, 2020</p>
-                            </div>
-                        </div>-->
                     </div>
                 </div>
             </div>
@@ -258,7 +247,7 @@
 </section>
 <!--speaker section end -->
 
-<!--<section id="schedule" class="section">
+<section id="schedule" class="section">
     <div class="container">
         <div class="section_title">
             <h3 class="title">Schedule</h3>
@@ -266,44 +255,52 @@
         <div class="row">
             <div class="col-sm-12 col-md-3 list-group" id="schedule-tabs" role="tablist">
 
-                <a class="schedule-item list-group-item list-group-item-action active" data-toggle="list" role="tab"
+                <a class="schedule-date list-group-item list-group-item-action active" data-toggle="list" role="tab"
                    id="day-1-tab" href="#schedule-day-1">28th Feb,
                     2020</a>
 
-                <a class="schedule-item list-group-item list-group-item-action" data-toggle="list" role="tab"
+                <a class="schedule-date list-group-item list-group-item-action" data-toggle="list" role="tab"
                    id="day-2-tab" href="#schedule-day-2">29th Feb,
                     2020</a>
 
-                <a class="schedule-item list-group-item list-group-item-action" data-toggle="list" role="tab"
+                <a class="schedule-date list-group-item list-group-item-action" data-toggle="list" role="tab"
                    id="day-3-tab" href="#schedule-day-3">01st Mar,
                     2020</a>
             </div>
             <div class="col-sm-12 col-md-9">
                 <div class="tab-content p20">
-
                     <div class="tab-pane fade show active" id="schedule-day-1" role="tabpanel"
                          aria-labelledby="day-1-tab">
-                        <ul class="list-group list-group-flush" id="day-1-details">
-                            <li class="list-group-item">TBA</li>
-                        </ul>
+                        <div class="list-group schedule-day-list" id="day-1-details">
+                            {{#each schedule.day1}}
+                                <div class="list-group-item schedule-item">
+                                    <div class="schedule-item-time">{{time}}</div>
+                                    <div class="schedule-item-name">{{event}}</div>
+                                </div>
+                            {{/each}}
+                        </div>
                     </div>
 
                     <div class="tab-pane fade" id="schedule-day-2" role="tabpanel" aria-labelledby="day-2-tab">
-                        <ul class="list-group list-group-flush" id="day-2-details">
-                            <li class="list-group-item">TBA</li>
-                        </ul>
+                        <div class="list-group list-group-flush schedule-day-list" id="day-2-details">
+                            {{#each schedule.day2}}
+                                <li class="list-group-item">{{time}} - {{event}}</li>
+                            {{/each}}
+                        </div>
                     </div>
 
                     <div class="tab-pane fade" id="schedule-day-3" role="tabpanel" aria-labelledby="day-3-tab">
                         <ul class="list-group list-group-flush" id="day-3-details">
-                            <li class="list-group-item">TBA</li>
+                            {{#each schedule.day3}}
+                                <li class="list-group-item">{{time}} - {{event}}</li>
+                            {{/each}}
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>-->
+</section>
 
 <section id="sponsors" class="section sponsors">
     <div class="container">
@@ -434,7 +431,7 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
 </section>
 

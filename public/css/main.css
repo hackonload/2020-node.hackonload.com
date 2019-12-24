@@ -906,7 +906,7 @@ a.list-group-item-action:hover {
     color: #0088CC;
 }
 
-.schedule-item {
+.schedule-date {
     margin: 10px;
 }
 
@@ -1010,6 +1010,19 @@ a.list-group-item-action:hover {
     width: auto;
     /*color: white;*/
     /*border-color: white;*/
+}
+
+.schedule-day-list {
+}
+
+.schedule-item {
+    font-size: large;
+    padding: 10px;
+    color: #282828;
+}
+
+.schedule-item-time {
+    color: var(--theme-color);
 }
 
 @media (max-width: 767px) {

@@ -2,11 +2,15 @@ const express = require('express');
 const router = express.Router();
 const FAQs = require("./../data/faqs");
 const team = require("./../data/team");
+const schedule = require("./../data/schedule");
 
 const homePageLinks = [
 	{
 		href: "#about",
 		title: "About"
+	}, {
+		href: "#schedule",
+		title: "Schedule"
 	}, {
 		href: "#sponsors",
 		title: "Sponsors"
@@ -29,13 +33,16 @@ const teamPageLinks = [
 	{
 		href: "/#about",
 		title: "About"
-	}, {
+	},
+	{
 		href: "/#sponsors",
 		title: "Sponsors"
-	}, {
+	},
+	{
 		href: "/#faqs",
 		title: "FAQs"
-	}, {
+	},
+	{
 		href: "https://blog.hackonload.com/",
 		title: "Blog",
 		newWindow: true,
@@ -51,7 +58,8 @@ router.get('/', (req, res, next) => {
 		meta_description: 'A 36hrs intense, fun-filled, rewarding convergence of programmers, designers and developers to build something amazing.',
 		page_url: url,
 		FAQs: FAQs,
-		links: homePageLinks
+		links: homePageLinks,
+		schedule: schedule
 	};
 	res.render('index', data);
 });
