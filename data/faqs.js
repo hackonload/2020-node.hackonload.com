@@ -2,7 +2,7 @@ const FAQs = [
 	{
 		id: "faq-1",
 		question: "Who can participate?",
-		answer: "All the students are welcome to apply, be it school or college. If you are under 18 years of age, we’ll need a parental consent form. If you are not a student you can still be a part as mentor, judge etc. If interested write to us at contact@hackonload.com"
+		answer: "Everyone. Yes, everyone. If you are under 18 years of age, we’ll need a parental consent form."
 	},
 	{
 		id: "faq-2",
@@ -10,19 +10,19 @@ const FAQs = [
 		answer: "We’re looking for people who 'do'! Folks who are passionate enough to work on crazy world-changing ideas. Tell us what makes you apply to OnLoad, what excites you, accomplishments you are proud of and whatever else you think can strengthen your chances of acceptance. We’ll get to know more about your abilities from the past projects, GitHub profile, participation/awards in other hackathons."
 	},
 	{
-		id:"faq-3",
-		question:"Can we apply as a team?",
-		answer:"Yes! This hackathon is strictly a team competition. We believe that you’re stronger as a team than you are apart. You can join or create a team once you've started an individual application."
+		id: "faq-3",
+		question: "Can we apply as a team?",
+		answer: "Yes! This hackathon is strictly a team competition. We believe that you’re stronger as a team than you are apart. You can join or create a team once you've started an individual application."
 	},
 	{
-		id:"faq-4",
-		question:"What if i don't have a team or an idea?",
-		answer:"Not to worry, most people don’t! We’ll have team formation and ideation events geared towards helping you find people to work with."
+		id: "faq-4",
+		question: "What if i don't have a team or an idea?",
+		answer: "Not to worry, most people don’t! We’ll have team formation and ideation events geared towards helping you find people to work with."
 	},
 	{
-		id:"faq-5",
-		question:"What shouldn't I bring? ",
-		answer:"Weapons of any kind, drugs, or alcohol. If you’re not sure whether something will be okay, please ask ahead of time!"
+		id: "faq-5",
+		question: "What shouldn't I bring? ",
+		answer: "Weapons of any kind, drugs, or alcohol. If you’re not sure whether something will be okay, please ask ahead of time!"
 	},
 	{
 		id: "faq-6",
@@ -70,14 +70,14 @@ const FAQs = [
 		answer: "A panel of some of the judges will evaluate hacks based on creativity, technical difficulty, design, and usefulness. The top 7 overall projects will demo what they have built in front of everyone."
 	},
 	{
-		id:"faq-15",
-		question:"How to reach VVCE, Mysuru? ",
-		answer:"Mysore is just 3hr journey from Bengaluru by train/bus. We will send you a detailed guide once you are accepted."
+		id: "faq-15",
+		question: "How to reach VVCE, Mysuru? ",
+		answer: "Mysore is just 3hr journey from Bengaluru by train/bus. We will send you a detailed guide once you are accepted."
 	},
 	{
-		id:"faq-16",
-		question:"Can I start working on the project before the event?",
-		answer:"No. In the interest of fairness, students should not be working on their projects before OnLoad begins and we do not allow participants to work on pre-existing projects. However, you can start thinking of ideas and familiarize yourself with all the tools and technologies you intend to use beforehand!"
+		id: "faq-16",
+		question: "Can I start working on the project before the event?",
+		answer: "No. In the interest of fairness, students should not be working on their projects before OnLoad begins and we do not allow participants to work on pre-existing projects. However, you can start thinking of ideas and familiarize yourself with all the tools and technologies you intend to use beforehand!"
 	}
 ];
 
