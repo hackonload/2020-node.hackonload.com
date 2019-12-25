@@ -247,7 +247,7 @@
 </section>
 <!--speaker section end -->
 
-<!--<section id="schedule" class="section">
+<section id="schedule" class="section">
     <div class="container">
         <div class="section_title">
             <h3 class="title">Schedule</h3>
@@ -283,24 +283,40 @@
 
                     <div class="tab-pane fade" id="schedule-day-2" role="tabpanel" aria-labelledby="day-2-tab">
                         <div class="list-group list-group-flush schedule-day-list" id="day-2-details">
-                            {{#each schedule.day2}}
-                                <li class="list-group-item">{{time}} - {{event}}</li>
-                            {{/each}}
+                            <div class="list-group schedule-day-list" id="day-2-details">
+                                {{#each schedule.day2}}
+                                    <div class="list-group-item schedule-item">
+                                        <div class="schedule-item-time">{{time}}</div>
+                                        <div class="schedule-item-time">{{event}}</div>
+                                    </div>
+                                {{/each}}
+                            </div>
                         </div>
                     </div>
 
                     <div class="tab-pane fade" id="schedule-day-3" role="tabpanel" aria-labelledby="day-3-tab">
-                        <ul class="list-group list-group-flush" id="day-3-details">
-                            {{#each schedule.day3}}
-                                <li class="list-group-item">{{time}} - {{event}}</li>
-                            {{/each}}
-                        </ul>
+                        <div class="list-group list-group-flush schedule-day-list" id="day-3-details">
+                            <div class="list-group schedule-day-list" id="day-3-details">
+                                {{#each schedule.day3}}
+                                    <div class="list-group-item schedule-item">
+                                        <div class="schedule-item-time">{{time}}</div>
+                                        <div class="schedule-item-name">{{event}}</div>
+                                    </div>
+                                {{/each}}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-sm-12" >
+                <br>
+                <p class="center" >Complete Schedule will be announced towards the day of event.</p>
+            </div>
+        </div>
     </div>
-</section>-->
+</section>
 
 <section id="sponsors" class="section sponsors">
     <div class="container">
