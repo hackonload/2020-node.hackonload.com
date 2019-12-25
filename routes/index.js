@@ -1,8 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const FAQs = require("./../data/faqs");
-const team = require("./../data/team");
-const schedule = require("./../data/schedule");
+const {getData} = require('./../utils/helpers');
 
 const homePageLinks = [
 	{
@@ -25,7 +23,7 @@ const homePageLinks = [
 	}
 ];
 
-const teamPageLinks = [
+const notHomePageLinks = [
 	{
 		href: "/",
 		title: "home"
@@ -53,26 +51,38 @@ const teamPageLinks = [
 /* GET home page. */
 router.get('/', (req, res, next) => {
 	const url = "https://hackonload.com" + req.originalUrl;
-	const data = {
-		title: 'OnLoad 2.0 | 28th Feb - 1st March',
-		meta_description: 'A 36hrs intense, fun-filled, rewarding convergence of programmers, designers and developers to build something amazing.',
-		page_url: url,
-		FAQs: FAQs,
-		links: homePageLinks,
-		schedule: schedule
-	};
+	/*	const data = {
+			title: 'OnLoad 2.0 | 28th Feb - 1st March',
+			meta_description: '',
+			page_url: url,
+			FAQs: FAQs,
+			links: homePageLinks,
+			schedule: schedule
+		};*/
+	const data = getData(
+		"OnLoad 2.0 | 28th Feb - 1st March",
+		"A 36hrs intense, fun-filled, rewarding convergence of programmers, designers and developers to build something amazing.",
+		url,
+		homePageLinks
+	);
 	res.render('index', data);
 });
 
 router.get('/team', (req, res) => {
 	const url = "https://hackonload.com" + req.originalUrl;
-	const data = {
-		title: 'Team behind OnLoad 2.0',
-		meta_description: 'The team behind OnLoad 2.0',
-		page_url: url,
-		links: teamPageLinks,
-		team: team
-	};
+	/*	const data = {
+			title: '',
+			meta_description: '',
+			page_url: url,
+			links: teamPageLinks,
+			team: team
+		};*/
+	const data = getData(
+		"Team behind OnLoad 2.0",
+		"The team behind OnLoad 2.0",
+		url,
+		notHomePageLinks
+	);
 	res.render('team', data);
 });
 
@@ -97,12 +107,18 @@ router.get('/ticket', (req, res) => {
 
 router.get('/ticket/confirm', (req, res) => {
 	const url = "https://hackonload.com" + req.originalUrl;
-	const data = {
-		title: 'OnLoad 2.0 conference tickets',
-		meta_description: 'Book tickets for the talks & Workshops for OnLoad 2.0',
-		page_url: url,
-		links: teamPageLinks,
-	};
+	/*	const data = {
+			title: '',
+			meta_description: '',
+			page_url: url,
+			links: teamPageLinks,
+		};*/
+	const data = getData(
+		"OnLoad 2.0 conference tickets",
+		"Book tickets for the talks & Workshops for OnLoad 2.0",
+		url,
+		notHomePageLinks
+	);
 	res.render('ticket-confirm', data);
 });
 

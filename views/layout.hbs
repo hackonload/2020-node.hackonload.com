@@ -42,19 +42,22 @@
     <meta property="twitter:title" content="{{title}}">
     <meta property="twitter:description" content="{{meta_description}}">
     <meta property="twitter:image" content="https://hackonload.com/onload-cover.png">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131919957-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+    {{#if production}}
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131919957-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
 
-        gtag('js', new Date());
+            function gtag() {
+                dataLayer.push(arguments);
+            }
 
-        gtag('config', 'UA-131919957-1');
-    </script>
+            gtag('js', new Date());
+
+            gtag('config', 'UA-131919957-1');
+        </script>
+    {{/if}}
 </head>
 <body>
 <div class="loader">
