@@ -52,7 +52,7 @@ const FAQs = [
 	{
 		id: "faq-11",
 		question: " Once i am accepted, what do i need to bring? ",
-		answer: "A valid government & a college issued photo ID, laptop, phone, chargers, any sleeping equipment you might want (we'll be providing mattresses)"
+		answer: "A valid government/college issued photo ID, laptop, phone, chargers, any sleeping equipment you might want (we'll be providing mattresses)"
 	},
 	{
 		id: "faq-12",
