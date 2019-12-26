@@ -98,12 +98,12 @@ router.get('/cfp', (req, res) => {
 
 router.get('/ticket', (req, res) => {
 	const url = "https://hackonload.com" + req.originalUrl;
-	const data = {
-		title: 'OnLoad 2.0 conference tickets',
-		meta_description: 'Book tickets for the talks & Workshops for OnLoad 2.0',
-		page_url: url,
-		links: teamPageLinks,
-	};
+	const data = getData(
+		"OnLoad 2.0 conference tickets",
+		"Book tickets for the talks & Workshops for OnLoad 2.0",
+		url,
+		notHomePageLinks
+	);
 	res.render('ticket', data);
 });
 
@@ -116,7 +116,7 @@ router.get('/ticket/confirm', (req, res) => {
 			links: teamPageLinks,
 		};*/
 	const data = getData(
-		"OnLoad 2.0 conference tickets",
+		"OnLoad 2.0 conference tickets - Confirmation",
 		"Book tickets for the talks & Workshops for OnLoad 2.0",
 		url,
 		notHomePageLinks
