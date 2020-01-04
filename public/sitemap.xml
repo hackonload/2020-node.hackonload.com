@@ -11,9 +11,9 @@
         <priority>1</priority>
     </url>
 
-    <!--<url>
+    <url>
         <loc>https://hackonload.com/team</loc>
         <changefreq>weekly</changefreq>
         <priority>1</priority>
-    </url>-->
+    </url>
 </urlset>
