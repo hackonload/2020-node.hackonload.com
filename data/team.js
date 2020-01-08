@@ -88,8 +88,7 @@ const team = [
 		bio: "A polymath, Designer, Artist, Toastmaster, as enthusiast who is looking forward to learn different stuffs!",
 		link: "https://www.linkedin.com/in/apoorva-singh-4b6ba715b/",
 		image: "Apoorva.JPG"
-	}
-
+	},
 ];
 
 module.exports = team;
