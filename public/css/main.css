@@ -929,10 +929,14 @@ footer {
     width: 40%;
 }
 
+
 .gold {
     width: 30%;
 }
 
+.med {
+    width: 25%;
+}
 @media (max-width: 767px) {
     .diamond {
         width: 100%;
