@@ -87,8 +87,16 @@ const team = [
 		name: "Apoorva Singh",
 		bio: "A polymath, Designer, Artist, Toastmaster, as enthusiast who is looking forward to learn different stuffs!",
 		link: "https://www.linkedin.com/in/apoorva-singh-4b6ba715b/",
-		image: "Apoorva.JPG"
+		image: "Apoorva.jpg"
 	},
+	{
+		name:"Sindhu Yadav",
+		bio:"Love to play with digital technology and photo editing software packages\n" +
+			"Love to try, learn and try again\n" +
+			"\"I tried so hard... I came so far\"",
+		link:"https://www.linkedin.com/in/sindhu-yadav-8284b9129",
+		image:"sindhu.jpeg"
+	}
 ];
 
 module.exports = team;
