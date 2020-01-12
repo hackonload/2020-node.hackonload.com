@@ -8,6 +8,10 @@ const homePageLinks = [
 		title: "About"
 	},
 	{
+		href: "#speakers",
+		title: "Speakers"
+	},
+	{
 		href: "#schedule",
 		title: "Schedule"
 	},
@@ -33,6 +37,14 @@ const notHomePageLinks = [
 	{
 		href: "/#about",
 		title: "About"
+	},
+	{
+		href: "/#speakers",
+		title: "Speakers"
+	},
+	{
+		href: "/#schedule",
+		title: "Schedule"
 	},
 	{
 		href: "/#sponsors",
