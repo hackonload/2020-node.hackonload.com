@@ -229,20 +229,23 @@
                 <a class="btn btn-primary" href="/cfp" title="Become a speaker">Become A Speaker</a>
             </div>
         </div>
-        <!--        <div class="row justify-content-center">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="speaker-box">
+        <div class="row">
+            {{#each speakers}}
+                <div class="col-md-3 col-sm-6">
+                    <div class="speaker-box">
+                        <a href="{{ link }}" rel="noopener" target="_blank">
                             <div class="speaker-img">
-                                <img class="img-fluid speaker-img" src="/images/speakers/speaker.jpg" alt="speaker-name"/>
+                                <img class="img-fluid" src="/images/speakers/{{ image }}" alt="{{name}}"/>
                             </div>
-                            <div class="speaker-info">
-                                <h3 class="speaker-name">Speaker Name</h3>
-                                <p class="speaker-designation">CEO</p>
-                                <p class="speaker-company">Company</p>
-                            </div>
+                        </a>
+                        <div class="speaker-info">
+                            <div class="speaker-name">{{name}}</div>
+                            <div class="speaker-data">{{designation}}, <br/> {{company}} </div>
                         </div>
                     </div>
-                </div>-->
+                </div>
+            {{/each}}
+        </div>
     </div>
 </section>
 <!--speaker section end -->
@@ -540,7 +543,7 @@
     <div class="container">
         <a href="https://goo.gl/maps/M2och8ac3qT2" target="_blank" rel="noopener">
             <div class="map-marker">
-<!--                <i class="fas fa-map-marker-alt"></i>-->
+                <!--                <i class="fas fa-map-marker-alt"></i>-->
                 <img src="images/location.png" alt="location">
                 <br/><br/>
                 <p>VVCE, Mysuru</p>
