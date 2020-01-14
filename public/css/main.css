@@ -926,7 +926,7 @@ footer {
 }
 
 .platinum {
-    width: 40%;
+    width: 85%;
 }
 
 
@@ -934,24 +934,29 @@ footer {
     width: 30%;
 }
 
-.med {
+.silver {
     width: 25%;
 }
+
 @media (max-width: 767px) {
     .diamond {
         width: 100%;
     }
 
     .platinum {
-        width: 95%;
-    }
-
-    .gold {
         width: 90%;
     }
 
+    .gold {
+        width: 80%;
+    }
+
+    .silver {
+        width: 70%;
+    }
+
     .min-tier {
-        width: 60%;
+        width: 50%;
     }
 }
 
