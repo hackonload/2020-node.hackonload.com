@@ -5,6 +5,13 @@ const speakers = [
 		company: "Pepipost",
 		image: "vikram.jpg",
 		link: "https://www.linkedin.com/in/vikram-sahu-6a01987b/"
+	},
+	{
+		name: "Abhilash",
+		designation: "Business Technology Analyst",
+		company: "Deloitte",
+		image: "abhilash.jpg",
+		link: "https://www.linkedin.com/in/abhiaecs/"
 	}
 ];
 
