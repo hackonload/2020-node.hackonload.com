@@ -1048,3 +1048,27 @@ footer {
 .conf-ticket {
     width: 100%;
 }
+
+.speaker-box {
+    padding: 15px;
+    line-height: normal;
+}
+
+.speaker-info {
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+.speaker-img {
+    border-bottom: 15px #3b5998;
+}
+
+.speaker-name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.speaker-data {
+    font-size: 16px;
+}
