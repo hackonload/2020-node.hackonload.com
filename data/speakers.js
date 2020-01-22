@@ -12,6 +12,13 @@ const speakers = [
 		company: "Deloitte",
 		image: "abhilash.jpg",
 		link: "https://www.linkedin.com/in/abhiaecs/"
+	},
+	{
+		name: "Satish Swaminathan",
+		designation: "COO (East)",
+		company: "Archimydes",
+		image: "satish.JPG",
+		link: "https://www.linkedin.com/in/satish-swaminathan-7105102/"
 	}
 ];
 
