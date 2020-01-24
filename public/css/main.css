@@ -419,7 +419,7 @@ footer {
     outline: 0 !important;
     border: none;
     cursor: pointer;
-    background-color: #18181c;
+    background-color: var(--theme-color-dark);
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
 }
@@ -985,8 +985,7 @@ footer {
 }
 
 .devfolio-apply-now svg.logo {
-    color: white;
-    fill: white;
+    fill: currentColor;
 }
 
 .devfolio-apply-now:not([disabled]) {
@@ -994,7 +993,8 @@ footer {
 }
 
 .devfolio-apply-now:hover {
-    background-color: var(--theme-color-dark) !important;
+    background-color: var(--theme-white) !important;
+    color: var(--theme-color-dark);
 }
 
 .member {
@@ -1071,4 +1071,21 @@ footer {
 
 .speaker-data {
     font-size: 16px;
+}
+
+.conference-buy-ticket {
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: var(--theme-color);
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: capitalize;
 }
