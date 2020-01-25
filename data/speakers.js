@@ -25,7 +25,7 @@ const speakers = [
 		designation:"Software Development Analyst Intern",
 		company:"American Express",
 		image:"Rishabh Singh.jpeg",
-		link:""
+		link:"https://www.linkedin.com/in/pingrishabh"
 	}
 
 ];
