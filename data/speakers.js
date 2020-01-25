@@ -19,7 +19,15 @@ const speakers = [
 		company: "Archimydes",
 		image: "satish.JPG",
 		link: "https://www.linkedin.com/in/satish-swaminathan-7105102/"
+	},
+	{
+		name:"Rishabh Singh",
+		designation:"Software Development Analyst Intern",
+		company:"American Express",
+		image:"Rishabh Singh.jpeg",
+		link:""
 	}
+
 ];
 
 module.exports = speakers;
