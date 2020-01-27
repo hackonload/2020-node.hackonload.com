@@ -90,12 +90,18 @@ const team = [
 		image: "Apoorva.jpg"
 	},
 	{
-		name:"Sindhu Yadav",
-		bio:"Love to play with digital technology and photo editing software packages\n" +
+		name: "Sindhu Yadav",
+		bio: "Love to play with digital technology and photo editing software packages\n" +
 			"Love to try, learn and try again\n" +
 			"\"I tried so hard... I came so far\"",
-		link:"https://www.linkedin.com/in/sindhu-yadav-8284b9129",
-		image:"sindhu.jpeg"
+		link: "https://www.linkedin.com/in/sindhu-yadav-8284b9129",
+		image: "sindhu.jpg"
+	},
+	{
+		name:"Megha Ambi",
+		bio:"Enthusiast in learning new things, quiet a good orator	",
+		link:"https://www.linkedin.com/in/megha-ambi-34b818193",
+		image:"Megha.jpeg"
 	}
 ];
 
