@@ -102,6 +102,12 @@ const team = [
 		bio:"Enthusiast in learning new things, quiet a good orator	",
 		link:"https://www.linkedin.com/in/megha-ambi-34b818193",
 		image:"Megha.jpeg"
+	},
+	{
+		name:"Kiran Kumar",
+		bio:"Love to learn things, like to do ordinary things in elegant way..",
+		link:"https://www.linkedin.com/in/kiran-kumar-61959217b",
+		image:"Kiran Kumar.jpg"
 	}
 ];
 
