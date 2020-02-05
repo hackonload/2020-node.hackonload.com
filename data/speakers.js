@@ -26,6 +26,13 @@ const speakers = [
 		company:"American Express",
 		image:"Rishabh Singh.jpeg",
 		link:"https://www.linkedin.com/in/pingrishabh"
+	},
+	{
+		name:"Ameer Jhan",
+		designation:"SDE I",
+		company:"Quantium",
+		image:"Ameer Jhan.png",
+		link:"https://www.linkedin.com/in/ameerthehacker"
 	}
 
 ];
