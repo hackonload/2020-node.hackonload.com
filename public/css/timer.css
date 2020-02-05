@@ -1,0 +1,21 @@
+body {
+    background-color: var(--theme-color);
+    text-align: center;
+}
+
+.timer-logo {
+    width: 500px;
+    height: auto;
+}
+
+.timer-screen {
+    display: none;
+    color: var(--theme-white);
+}
+
+#timer-title {
+    color: var(--theme-white);
+    font-family: var(--font-heading);
+    font-size: 100px;
+}
+
