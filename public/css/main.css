@@ -1040,6 +1040,10 @@ footer {
     color: var(--theme-color);
 }
 
+.schedule-item-name {
+    font-weight: bold;
+}
+
 @media (max-width: 767px) {
 
 }
