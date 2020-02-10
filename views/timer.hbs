@@ -46,6 +46,9 @@
     <div class="row timer-screen">
         <div class="col-12">
             <p id="timer-title">Hacking ends in</p>
+            <p id="timer-title">Hacking ends in</p>
+            <p id="timer-title">Hacking ends in</p>
+            <p id="timer-title">Hacking ends in</p>
         </div>
     </div>
     <div class="row timer-screen">
@@ -59,6 +62,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
     const startHacking = function () {
+        showTimer();
+    };
+
+    const showTimer = () => {
         const ele = document.getElementById("btn-screen");
         ele.style.display = "none";
 
@@ -66,7 +73,6 @@
         logo.style.width = "200px";
 
         $(".timer-screen").show();
-
     };
 </script>
 </body>
