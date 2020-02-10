@@ -1027,6 +1027,10 @@ footer {
     /*border-color: white;*/
 }
 
+#schedule-tabs {
+    padding: 15px;
+}
+
 .schedule-day-list {
 }
 
