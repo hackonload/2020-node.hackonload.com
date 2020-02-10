@@ -1,12 +1,66 @@
 const schedule = {
 	day1: [
 		{
-			time: '8:00 A.M.',
+			time: '07:30 A.M.',
 			event: 'Check-In.'
 		},
 		{
-			time: '10 A.M. - 5 P.M.',
-			event: 'Tech Talks & Workshops.'
+			time: '09:00 A.M.',
+			event: 'Opening Ceremony'
+		},
+		{
+			time: '09:45 A.M.',
+			event: 'Event loop and the rise of Async programming in JavaScript',
+			speaker:'Vinit Shahdeo'
+		},
+		{
+			time: '10:35 A.M.',
+			event: 'The Future of Work ',
+			speaker:'Satish Swaminathan'
+		},
+		{
+			time: '11:25 A.M.',
+			event: 'Tech Talk',
+			speaker:''
+		},
+		{
+			time: '12:00 P.M.',
+			event: 'Fantastic Hackathons & How to Win Them?',
+			speaker:' Rishabh Singh '
+		},
+		{
+			time: '01:00 P.M.',
+			event: 'Lunch',
+			speaker:''
+		},
+		{
+			time: '02:00 P.M.',
+			event: 'Tech Talk',
+			speaker:''
+		},
+		{
+			time: '02:50 P.M.',
+			event: 'Kickstarting your OSS journey',
+			speaker:'Ameer Jhan'
+		},
+		{
+			time: '03:40 P.M.',
+			event: 'How to dodge roadblocks in a way of becoming an amazing developer',
+			speaker:'Vikram Sahu'
+		},
+		{
+			time: '04:30 P.M.',
+			event: 'Let\'s get PWA savvy',
+			speaker:'Abhilash'
+		},
+
+		{
+			time: '05:30 P.M.',
+			event: 'High tea'
+		},
+		{
+			time: '08:00 P.M.',
+			event: 'Dinner'
 		},
 		{
 			time: '9:00 P.M.',
@@ -15,28 +69,66 @@ const schedule = {
 	],
 	day2: [
 		{
-			time:'',
-			event:'Hacking Continues....'
+			time:'2:00 A.M.',
+			event:'Midnight Snacks'
 		},
+		{
+			time:'08:00 A.M.',
+			event:'Breakfast'
+		},
+		{
+			time:'01:00 P.M.',
+			event:'Lunch'
+		},
+		{
+			time:'04:30 P.M.',
+			event:'High Tea'
+		},
+		{
+			time:'08:00 P.M.',
+			event:'Dinner  '
+		},
+
 
 	],
 	day3: [
 		{
-			time: '9:00 A.M.',
-			event: 'Hacking Stops.'
+			time:'12:00 A.M',
+			event:'Midnight Snacks'
 		},
 		{
-			time:'9:30 A.M.',
-			event: 'Judging Begins.'
+			time:'07:30 A.M.',
+			event:'Breakfast'
 		},
-		// {
-		// 	time:'12:30 P.M.',
-		// 	event:'Judging Ends'
-		// },
 		{
-			time:'2:00 P.M.',
-			event:'Closing Ceremony.'
-		}
+			time:'09:00 A.M.',
+			event:'Hacking Ends'
+		},
+		{
+			time:'09:15 A.M.',
+			event:'Judging Begins'
+		},
+		{
+			time:'12:15 P.M.',
+			event:'Judging Stops'
+		},
+		{
+			time:'12:30 P.M.',
+			event:'Lunch'
+		},
+		{
+			time:'12:45 P.M.',
+			event:'Final Presentation'
+		},
+		{
+			time:'02:00 P.M.',
+			event:'Closing Ceremony'
+		},
+		{
+			time:'02:45 P.M.',
+			event:'Good-bye'
+		},
+
 
 	]
 };
