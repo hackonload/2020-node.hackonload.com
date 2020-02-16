@@ -17,7 +17,7 @@ const speakers = [
 		name: "Satish Swaminathan",
 		designation: "COO (East)",
 		company: "Archimydes",
-		image: "satish.JPG",
+		image: "satish.jpg",
 		link: "https://www.linkedin.com/in/satish-swaminathan-7105102/"
 	},
 	{
