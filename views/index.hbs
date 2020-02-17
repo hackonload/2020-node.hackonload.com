@@ -303,6 +303,9 @@
                                     <div class="list-group-item schedule-item">
                                         <div class="schedule-item-time">{{time}}</div>
                                         <div class="schedule-item-name">{{event}}</div>
+                                        {{#if speaker}}
+                                            <div class="schedule-item-speaker">{{speaker}}</div>
+                                        {{/if}}
                                     </div>
                                 {{/each}}
                             </div>
