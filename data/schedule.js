@@ -50,8 +50,8 @@ const schedule = {
 		},
 		{
 			time: '04:30 P.M.',
-			event: 'Let\'s get PWA savvy',
-			speaker:'Abhilash'
+			event: 'The Anatomy of Problem Solving',
+			speaker:'Arjith Natarajan'
 		},
 
 		{
@@ -75,6 +75,11 @@ const schedule = {
 		{
 			time:'08:00 A.M.',
 			event:'Breakfast'
+		},
+		{
+			time:'12:00 P.M.',
+			event:'Let\'s get PWA savvy',
+			speaker:'Abhilash'
 		},
 		{
 			time:'01:00 P.M.',
