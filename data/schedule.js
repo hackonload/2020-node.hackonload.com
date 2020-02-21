@@ -10,8 +10,8 @@ const schedule = {
 		},
 		{
 			time: '09:45 A.M.',
-			event: 'Event loop and the rise of Async programming in JavaScript',
-			speaker:'Vinit Shahdeo'
+			event: 'Tech Talk',
+			speaker:''
 		},
 		{
 			time: '10:35 A.M.',
@@ -35,8 +35,8 @@ const schedule = {
 		},
 		{
 			time: '02:00 P.M.',
-			event: 'Tech Talk',
-			speaker:''
+			event: 'Building the hacker ecosystem with Devfolio',
+			speaker:'Denver D’Souza'
 		},
 		{
 			time: '02:50 P.M.',

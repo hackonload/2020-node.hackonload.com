@@ -21,6 +21,13 @@ const speakers = [
 		link: "https://www.linkedin.com/in/satish-swaminathan-7105102/"
 	},
 	{
+		name:"Denver D’Souza",
+		designation:"Community Manager",
+		company:"Devfolio",
+		image:"denver.jpg",
+		link:"https://www.linkedin.com/in/denverjude/"
+	},
+	{
 		name:"Rishabh Singh",
 		designation:"Software Development Analyst Intern",
 		company:"American Express",
@@ -55,7 +62,13 @@ const speakers = [
 		image: "jyotsna.jpg",
 		link: "https://www.linkedin.com/in/jyotsna17gupta/"
 	},
-
+	{
+		name:"Aman Singh",
+		designation:"Delivery Lead",
+		company:"Archimydes",
+		image:"Aman Singh.jpg",
+		link:""
+	}
 ];
 
 module.exports = speakers;
