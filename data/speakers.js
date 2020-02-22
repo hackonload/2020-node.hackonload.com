@@ -42,6 +42,13 @@ const speakers = [
 		link:"https://www.linkedin.com/in/ameerthehacker"
 	},
 	{
+		name:"Arjith Natarajan",
+		designation:"Software Development Engineer",
+		company:"Sigaram Technologies",
+		image:"arjith.jpg",
+		link:"https://www.linkedin.com/in/arjithn/"
+	},
+	{
 		name:"Vinit Shahdeo",
 		designation:"Software Engineer",
 		company:"Postman",
