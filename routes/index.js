@@ -136,15 +136,4 @@ router.get('/ticket/confirm', (req, res) => {
 	res.render('ticket-confirm', data);
 });
 
-router.get('/timer', (req, res) => {
-	const url = "https://hackonload.com" + req.originalUrl;
-	const data = getData(
-		"OnLoad 2.0 | Timer",
-		"Remaining time before hackathon ends.",
-		url,
-		notHomePageLinks
-	);
-	res.render('timer', {layout: false});
-});
-
 module.exports = router;

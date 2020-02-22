@@ -1,6 +1,7 @@
 body {
-    background-color: var(--theme-color);
+    background-color: var(--theme-color-dark);
     text-align: center;
+    color: var(--theme-white);
 }
 
 .timer-logo {
@@ -16,6 +17,11 @@ body {
 #timer-title {
     color: var(--theme-white);
     font-family: var(--font-heading);
-    font-size: 100px;
+    font-size: 70px;
+}
+
+#countdown {
+    font-size: 150px;
+    color: var(--theme-white);
 }
 
