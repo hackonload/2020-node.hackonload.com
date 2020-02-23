@@ -48,12 +48,12 @@
             <h1 id="timer-title">Hacking ends in</h1>
         </div>
     </div>
-    <div class="row row-fluid timer-screen text-center">
+    <div class="row timer-screen text-center align-items-center">
         <div class="col-sm-3">
             <canvas class="mascot-canvas" id="left-canvas"></canvas>
             <!--            <img src="/images/mascot-l.png" style="width: 500px; height: auto" />-->
         </div>
-        <div class="col-sm-6 d-flex align-items-center">
+        <div class="col-sm-6">
             <h2 id="countdown">00 : 00: 00</h2>
         </div>
         <div class="col-sm-3">
@@ -69,6 +69,7 @@
 <script src="/js/timer-canvas.js"></script>
 <script>
     $(document).ready(() => {
+        $(".timer-screen").hide();
         checkPersisted();
     });
     const startHacking = () => {

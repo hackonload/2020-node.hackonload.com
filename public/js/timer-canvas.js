@@ -12,8 +12,8 @@ leftMascotIMG.src = leftImgLocation;
 rightMascotIMG.src = rightImgLocation;
 
 leftMascotIMG.onload = () => {
-	leftMascotCanvas.drawImage(leftMascotIMG, 0, 0, 308, 308);
+	leftMascotCanvas.drawImage(leftMascotIMG, 0, 0, 300, 300);
 };
 rightMascotIMG.onload = () => {
-	rightMascotCanvas.drawImage(rightMascotIMG, 0, 0, 308, 308);
+	rightMascotCanvas.drawImage(rightMascotIMG, 0, 0, 300, 300);
 };

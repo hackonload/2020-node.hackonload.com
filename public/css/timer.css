@@ -10,7 +10,6 @@ body {
 }
 
 .timer-screen {
-    display: none;
     color: var(--theme-white);
 }
 
@@ -26,7 +25,5 @@ body {
 }
 
 .mascot-canvas {
-    width: 308px;
-    height: 308px;
     padding: 0;
 }
