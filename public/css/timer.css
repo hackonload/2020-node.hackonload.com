@@ -21,7 +21,12 @@ body {
 }
 
 #countdown {
-    font-size: 150px;
+    font-size: 130px;
     color: var(--theme-white);
 }
 
+.mascot-canvas {
+    width: 308px;
+    height: 308px;
+    padding: 0;
+}
