@@ -16,11 +16,11 @@ body {
 #timer-title {
     color: var(--theme-white);
     font-family: var(--font-heading);
-    font-size: 70px;
+    font-size: 6rem;
 }
 
 #countdown {
-    font-size: 130px;
+    font-size: 8rem;
     color: var(--theme-white);
 }
 

@@ -65,6 +65,7 @@
 
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="/js/canvas-helpers.js"></script>
 <script src="/js/timer.js"></script>
 <script src="/js/timer-canvas.js"></script>
 <script>
@@ -73,12 +74,13 @@
         checkPersisted();
     });
     const startHacking = () => {
-        showTimer();
-        persistTimerScreen();
+        const time = Date.now();
+        showTimer(time);
+        persistTimerScreen(time);
     };
 
 
-    const showTimer = () => {
+    const showTimer = (time) => {
         const ele = document.getElementById("btn-screen");
         ele.style.display = "none";
 
@@ -86,7 +88,7 @@
         logo.style.width = "200px";
 
         $(".timer-screen").css("display", "flex");
-        startTimer();
+        startTimer(time);
     };
 
 </script>
