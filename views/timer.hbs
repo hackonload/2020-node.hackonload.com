@@ -37,6 +37,7 @@
                  alt="Responsive image">
         </div>
     </div>
+    <!--    <div class="row"><div class="col-12"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div></div>-->
     <div class="row" id="btn-screen">
         <div class="col-12">
             <button class="btn btn-rounded btn-light" onclick="startHacking();">Start Hacking</button>
@@ -50,24 +51,22 @@
     </div>
     <div class="row timer-screen text-center align-items-center">
         <div class="col-sm-3">
-            <canvas class="mascot-canvas" id="left-canvas" width="300" height="300"></canvas>
-            <!--            <img src="/images/mascot-l.png" style="width: 500px; height: auto" />-->
+            <!--            <canvas class="mascot-canvas" id="left-canvas" width="300" height="300"></canvas>-->
+            <img src="/images/mascot-l.png" alt="Mascot"/>
         </div>
         <div class="col-sm-6">
             <h2 id="countdown">00 : 00: 00</h2>
         </div>
         <div class="col-sm-3">
-            <canvas class="mascot-canvas" id="right-canvas" width="300" height="300"></canvas>
-            <!--            <img src="/images/mascot-r.png" style="width: 500px; height: auto" />-->
+            <!--            <canvas class="mascot-canvas" id="right-canvas" width="300" height="300"></canvas>-->
+            <img src="/images/mascot-r.png" alt="Mascot"/>
         </div>
     </div>
 
 
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="/js/canvas-helpers.js"></script>
 <script src="/js/timer.js"></script>
-<script src="/js/timer-canvas.js"></script>
 <script>
     $(document).ready(() => {
         $(".timer-screen").hide();
