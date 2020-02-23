@@ -31,19 +31,15 @@
 </head>
 <body>
 <div class="container-fluid">
-    <div class="row">
+    <div class="row full-height align-items-center" id="s">
         <div class="col-12">
             <img src="/images/onload-white-exact.png" class="img-fluid timer-logo" id="onload-logo-timer"
                  alt="Responsive image">
+            <div class="col-12" id="btn-screen">
+                <button class="btn btn-rounded btn-light" onclick="startHacking();">Start Hacking</button>
+            </div>
         </div>
     </div>
-    <!--    <div class="row"><div class="col-12"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div></div>-->
-    <div class="row" id="btn-screen">
-        <div class="col-12">
-            <button class="btn btn-rounded btn-light" onclick="startHacking();">Start Hacking</button>
-        </div>
-    </div>
-
     <div class="row timer-screen">
         <div class="col-12">
             <h1 id="timer-title">Hacking ends in</h1>
@@ -80,12 +76,9 @@
 
 
     const showTimer = (time) => {
-        const ele = document.getElementById("btn-screen");
-        ele.style.display = "none";
-
-        const logo = document.getElementById("onload-logo-timer");
-        logo.style.width = "200px";
-
+        $("#s").removeClass("full-height");
+        $("#btn-screen").hide();
+        $("#onload-logo-timer").css("width", "200px");
         $(".timer-screen").css("display", "flex");
         startTimer(time);
     };

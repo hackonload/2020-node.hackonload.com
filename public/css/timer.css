@@ -4,6 +4,11 @@ body {
     color: var(--theme-white);
 }
 
+.full-height {
+    min-height: 100vh;
+    height: 100%;
+}
+
 .timer-logo {
     width: 500px;
     height: auto;
