@@ -35,7 +35,6 @@ const getSecondsTillEnd = () => {
 };
 
 const secondsToTime = (seconds) => {
-	console.log(seconds);
 	const arr = new Date(seconds * 1000).toISOString().substr(11, 8).split(':');
 	const days = Math.floor(seconds / 86400);
 	arr[0] = (parseInt(arr[0], 10) + days * 24).toString();
