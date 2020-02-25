@@ -930,11 +930,11 @@ footer {
 }
 
 .gold {
-    width: 45%;
+    width: 80%;
 }
 
 .silver {
-    width:50%;
+    width:60%;
 }
 
 @media (max-width: 767px) {
