@@ -10,8 +10,8 @@ const schedule = {
 		},
 		{
 			time: '09:45 A.M.',
-			event: 'Tech Talk',
-			speaker:''
+			event: 'How to dodge roadblocks in a way of becoming an amazing developer',
+			speaker:'Vikram Sahu'
 		},
 		{
 			time: '10:35 A.M.',
@@ -39,23 +39,23 @@ const schedule = {
 			speaker:'Denver D’Souza'
 		},
 		{
-			time: '02:50 P.M.',
+			time: '02:40 P.M.',
 			event: 'Kickstarting your OSS journey',
 			speaker:'Ameer Jhan'
 		},
 		{
-			time: '03:40 P.M.',
+			time: '03:30 P.M.',
 			event: 'How to dodge roadblocks in a way of becoming an amazing developer',
 			speaker:'Vikram Sahu'
 		},
 		{
-			time: '04:30 P.M.',
+			time: '04:20 P.M.',
 			event: 'The Anatomy of Problem Solving',
 			speaker:'Arjith Natarajan'
 		},
 
 		{
-			time: '05:30 P.M.',
+			time: '05:00 P.M.',
 			event: 'High tea'
 		},
 		{
