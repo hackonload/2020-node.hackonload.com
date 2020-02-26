@@ -50,7 +50,7 @@ const speakers = [
 	},
 	{
 		name:"Subbakrishna M V",
-		designation:"Head of R&D",
+		designation:"Head of R&D, Training & Product Development",
 		company:"Excelsoft Technologies Pvt Ltd. Mysuru",
 		image:"subbukrishna.jpeg",
 		link:"https://www.excelsoftcorp.com/"
