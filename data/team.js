@@ -108,6 +108,13 @@ const team = [
 		bio:"Love to learn things, like to do ordinary things in elegant way..",
 		link:"https://www.linkedin.com/in/kiran-kumar-61959217b",
 		image:"Kiran Kumar.jpg"
+	},
+	{
+		name:"Ayush Bali",
+		bio:"Bio-Sports, fitness and fashion enthusiast.\n" +
+			"Always trying to learn new stuff!",
+		link:"https://www.linkedin.com/in/ayush-bali-05723516b/",
+		image:"ayush.jpeg",
 	}
 ];
 
