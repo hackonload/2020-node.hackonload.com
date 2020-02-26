@@ -49,6 +49,27 @@ const speakers = [
 		link:"https://www.linkedin.com/in/arjithn/"
 	},
 	{
+		name:"Subbakrishna M V",
+		designation:"Head of R&D",
+		company:"Excelsoft Technology",
+		image:"subbukrishna.jpeg",
+		link:"https://www.excelsoftcorp.com/"
+	},
+	{
+		name:"Prashanth shivaram",
+		designation:"Senior Product Manager",
+		company:"Walmart Labs",
+		image:"Prashanth.jpeg",
+		link:"https://www.linkedin.com/in/prashanth-shivaram-1323a916"
+	},
+	{
+		name: "Jyotsna Gupta",
+		designation: "Software Developer",
+		company: "Exotel",
+		image: "jyotsna.jpg",
+		link: "https://www.linkedin.com/in/jyotsna17gupta/"
+	},
+	{
 		name:"Vinit Shahdeo",
 		designation:"Software Engineer",
 		company:"Postman",
@@ -62,13 +83,7 @@ const speakers = [
 		image: "Akash Ravishankar.jpg",
 		link: "https://www.linkedin.com/in/akash-r-a209b4139"
 	},
-	{
-		name: "Jyotsna Gupta",
-		designation: "Software Developer",
-		company: "Exotel",
-		image: "jyotsna.jpg",
-		link: "https://www.linkedin.com/in/jyotsna17gupta/"
-	},
+
 	{
 		name:"Aman Singh",
 		designation:"Delivery Lead",
