@@ -45,17 +45,12 @@ const schedule = {
 		},
 		{
 			time: '03:30 P.M.',
-			event: 'How to dodge roadblocks in a way of becoming an amazing developer',
-			speaker:'Vikram Sahu'
-		},
-		{
-			time: '04:20 P.M.',
 			event: 'The Anatomy of Problem Solving',
 			speaker:'Arjith Natarajan'
 		},
 
 		{
-			time: '05:00 P.M.',
+			time: '04:15 P.M.',
 			event: 'High tea'
 		},
 		{
