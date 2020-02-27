@@ -5,6 +5,7 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const compression = require('compression');
 const minify = require('express-minify');
+const storage = require('node-persist');
 
 //const webp = require('webp-middleware');
 
@@ -12,6 +13,7 @@ const minify = require('express-minify');
 const router = require('./routes/index');
 const timerRouter = require('./routes/timer');
 
+storage.init().then(r => console.log("done."));
 const app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
