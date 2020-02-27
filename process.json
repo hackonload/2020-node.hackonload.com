@@ -4,7 +4,8 @@
   "watch": true,
   "ignore_watch": [
     "node_modules",
-    ".git"
+    ".git",
+    ".node-persist"
   ],
   "instances": "max",
   "exec_mode": "cluster"
