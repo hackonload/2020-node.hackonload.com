@@ -1,4 +1,4 @@
-const HACKATHON_ENDS_AT = new Date(2020, 1, 28, 9, 0, 0, 0);
+const HACKATHON_ENDS_AT = new Date(2020, 2, 1, 9, 0, 0, 0);
 
 let intervalID;
 
