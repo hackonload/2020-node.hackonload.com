@@ -20,7 +20,8 @@ router.get('/persist/check/lapse', async (req, res) => {
 	await res.json({persist: data, time: time});
 });
 
-router.get('/persist/reset', async (req, res) => {
+router.get('/reset', async (req, res) => {
+	await storage.init();
 	await storage.removeItem('persist');
 	await storage.removeItem('time');
 	await res.json({reset: true});
