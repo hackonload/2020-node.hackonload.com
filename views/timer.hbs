@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--suppress HtmlUnknownTarget -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- Primary Meta Tags -->
+    <title>OnLoad 2.0 | Timer</title>
+    <meta name="title" content="OnLoad 2.0 | Timer"/>
+    <meta name="description" content="Remaining time before hackathon ends."/>
+    <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous"/>
+    <link href="/font-awesome/css/fontawesome.min.css" rel="stylesheet">
+    <link href="/font-awesome/css/brands.min.css" rel="stylesheet">
+    <link href="/font-awesome/css/solid.min.css" rel="stylesheet">
+
+    <link href="/css/main.css" rel="stylesheet"/>
+    <link href="/css/timer.css" rel="stylesheet"/>
+
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#4b2662">
+    <meta name="msapplication-TileColor" content="#4b2662">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row full-height align-items-center" id="s">
+        <div class="col-12">
+            <img src="/images/onload-white-exact.png" class="img-fluid timer-logo" id="onload-logo-timer"
+                 alt="Responsive image">
+            <div class="col-12" id="btn-screen">
+                <button class="btn btn-rounded btn-light" onclick="startHacking();">Start Hacking</button>
+            </div>
+        </div>
+    </div>
+    <div class="row timer-screen">
+        <div class="col-12">
+            <h1 id="timer-title">Hacking ends in</h1>
+        </div>
+    </div>
+    <div class="row timer-screen text-center align-items-center">
+        <div class="col-sm-3">
+            <!--            <canvas class="mascot-canvas" id="left-canvas" width="300" height="300"></canvas>-->
+            <img src="/images/mascot-l.png" alt="Mascot"/>
+        </div>
+        <div class="col-sm-6">
+            <h2 id="countdown">00 : 00: 00</h2>
+        </div>
+        <div class="col-sm-3">
+            <!--            <canvas class="mascot-canvas" id="right-canvas" width="300" height="300"></canvas>-->
+            <img src="/images/mascot-r.png" alt="Mascot"/>
+        </div>
+    </div>
+
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="/js/timer.js"></script>
+<script>
+    $(document).ready(() => {
+        $(".timer-screen").hide();
+        checkPersisted();
+    });
+    const startHacking = () => {
+        const time = Date.now();
+        showTimer(time);
+        persistTimerScreen(time);
+    };
+
+
+    const showTimer = (time) => {
+        $("#s").removeClass("full-height");
+        $("#btn-screen").hide();
+        $("#onload-logo-timer").css("width", "200px");
+        $(".timer-screen").css("display", "flex");
+        startTimer(time);
+    };
+
+</script>
+</body>
+</html>
