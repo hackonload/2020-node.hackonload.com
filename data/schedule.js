@@ -19,9 +19,9 @@ const schedule = {
 			speaker:'Satish Swaminathan'
 		},
 		{
-			time: '11:25 A.M.',
-			event: 'Tech Talk',
-			speaker:''
+			time: '11:20 A.M.',
+			event: 'Machine Learning and its features',
+			speaker: 'Subbakrishna'
 		},
 		{
 			time: '12:00 P.M.',
